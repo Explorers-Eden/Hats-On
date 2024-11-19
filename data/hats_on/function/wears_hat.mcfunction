@@ -1,4 +1,4 @@
-data modify storage eden:temp hat set from entity @s SelectedItem
+data modify storage eden:temp hat set from entity @s Inventory[{Slot:103b}]
 
 playsound minecraft:item.armor.equip_generic player @s ~ ~ ~ 1 1
 item replace entity @s armor.head from entity @s weapon.mainhand
